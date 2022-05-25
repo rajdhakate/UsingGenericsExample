@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				D57EB58D283E0C7B00C81342 /* Cell */,
-				D57EB587283E0BE200C81342 /* kIdentifier.swift */,
+				D57EB592283E127400C81342 /* Helpers */,
 				D57EB573283E0BC200C81342 /* AppDelegate.swift */,
 				D57EB575283E0BC200C81342 /* SceneDelegate.swift */,
 				D57EB577283E0BC200C81342 /* ViewController.swift */,
@@ -75,8 +75,6 @@
 				D57EB57C283E0BC400C81342 /* Assets.xcassets */,
 				D57EB57E283E0BC400C81342 /* LaunchScreen.storyboard */,
 				D57EB581283E0BC400C81342 /* Info.plist */,
-				D57EB58E283E0DEA00C81342 /* UICollectionView+Helper.swift */,
-				D57EB590283E0EBD00C81342 /* UITableView+Helper.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -88,6 +86,16 @@
 				D57EB58A283E0C7500C81342 /* CustomCollectionViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		D57EB592283E127400C81342 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB587283E0BE200C81342 /* kIdentifier.swift */,
+				D57EB58E283E0DEA00C81342 /* UICollectionView+Helper.swift */,
+				D57EB590283E0EBD00C81342 /* UITableView+Helper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
